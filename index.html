@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Strength Checker</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Password Strength Checker</h1>
+
+      <div class="input-group">
+        <label for="password">Enter Password</label>
+        <div class="password-input-wrapper">
+          <input
+            type="password"
+            id="password"
+            placeholder="Type your password..."
+          />
+          <button type="button" id="togglePassword" class="toggle-btn" aria-label="Toggle password visibility">
+            <span class="toggle-icon">👁️</span>
+          </button>
+        </div>
+        <div class="strength-bar">
+          <div class="strength-fill" id="strengthFill"></div>
+        </div>
+        <div class="strength-label" id="strengthLabel" aria-live="polite">-</div>
+      </div>
+
+      <div class="checklist">
+        <div class="checklist-title">Requirements</div>
+        <div class="checklist-item" id="lengthCheck">
+          <div class="checkbox"></div>
+          <span>At least 8 characters</span>
+        </div>
+        <div class="checklist-item" id="uppercaseCheck">
+          <div class="checkbox"></div>
+          <span>Contains uppercase letter (A-Z)</span>
+        </div>
+        <div class="checklist-item" id="lowercaseCheck">
+          <div class="checkbox"></div>
+          <span>Contains lowercase letter (a-z)</span>
+        </div>
+        <div class="checklist-item" id="numberCheck">
+          <div class="checkbox"></div>
+          <span>Contains number (0-9)</span>
+        </div>
+        <div class="checklist-item" id="specialCheck">
+          <div class="checkbox"></div>
+          <span>Contains special character (!@#$%^&*)</span>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
