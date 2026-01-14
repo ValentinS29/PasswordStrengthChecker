@@ -46,7 +46,7 @@
 <ol>
   <li>
     Clone the repository:
-    <pre><code>git clone https://github.com/ValentinS29/REPO_NAME.git</code></pre>
+    <pre><code>git clone https://github.com/ValentinS29/PasswordStrengthChecker.git</code></pre>
   </li>
   <li>Open the folder in <strong>VS Code</strong></li>
   <li>
@@ -75,8 +75,3 @@
   <li>Git &amp; GitHub Pages</li>
 </ul>
 <p><em>No frameworks. No libraries.</em></p>
-
-<hr />
-
-<h2>📜 License</h2>
-<p>MIT License</p>
